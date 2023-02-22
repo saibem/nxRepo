@@ -1,0 +1,16 @@
+{
+  "name": "second-component",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "second-component/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["second-component/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
