@@ -10,6 +10,7 @@ export interface SecondComponentProps {}
     <div className={styles['container']}>
       <h1>Welcome to SecondComponent!</h1>
         <Button/>
+        <h1><Link to="/">Back</Link></h1>
     </div>
   );
 }
